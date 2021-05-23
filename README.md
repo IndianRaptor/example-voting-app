@@ -77,6 +77,11 @@ deployment "worker" created
 ```
 
 The vote interface is then available on port 31000/32243 on each host of the cluster, the result one is available on port 31001/31547.
+You can also get the url by running the below command:
+
+```
+$ minikube service my-servicename --url
+```
 
 Architecture
 -----
